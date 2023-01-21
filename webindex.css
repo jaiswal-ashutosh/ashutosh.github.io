@@ -1,0 +1,67 @@
+#ind {
+font-family: 'Poppins',serif;
+font-size: 15px;
+font-weight: 300;
+line-height: 1.625em;
+position: relative;
+}
+a:link{
+    text-decoration: none;
+}
+@media (max-width: 990px)
+.genric-btn.primary-border
+{
+    color: #8490ff;
+    border: 1px solid #8490ff;
+    background: #8490ff;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.genric-btn.primary-border {
+    color: #8490ff;
+    border: 1px solid #8490ff;
+    background: #fff;
+}
+.nav a {
+    padding: 0 8px 0px 8px;
+    text-decoration: none;
+    display: inline-block;
+    /* color: #222; */
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+.genric-btn.circle {
+    border-radius: 20px;
+}
+
+.nav > li {
+    margin-left: 10px;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li {
+    position: relative;
+    white-space: nowrap;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background: #fff;
+}
+
+
+.nav > li > a:hover{
+    background-color:rgb(242, 224, 152);
+    border-radius: 10px;
+}
